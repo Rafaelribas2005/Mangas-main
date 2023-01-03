@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    background-color: black;
+}
+
+button{
+    background-color: transparent;
+}
+
+.menu-principal {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo-txt {
+    margin-left: 10px;
+}
+
+.menu-principal>div {
+    display: flex;
+    align-items: center;
+}
+
+.menu-principal>div>nav {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    padding: 20px;
+
+}
+
+.menu-principal>div>nav>img {
+    align-items: center;
+
+}
+
+.nav-principal>span {
+    padding: 13px;
+    color: white;
+}
+
+.nav-principal>a {
+    justify-content: space-between;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    width: 0px;
+    transition: 0.5s;
+    border-radius: 10px;
+    
+}
+
+.search-btn {
+    background-color: rgb(0, 0, 0);
+    margin-left: 3px;
+    align-items: center;
+    display: flex;
+    width: 0px;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.search-box:hover > .search-txt {
+    width: 150px;
+    height: 20px;
+    background-color: white;
+}
+
+.pp {
+    display: flex;
+}
+
+span#saidaqui {
+    margin-left: 24px;
+}
+span#logo-txt {
+    margin-left: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    margin-left: 5px;
+}
+
+
+h3{
+    
+    color: white
+}
+
+h5 {
+    color: white;
+    margin: none;
+}
+.card {
+    border-radius: 10px;
+    /*efeito de sombra*/
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    
+}
+
+
+
+
+#lançamentos-w>span{
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    font-size: large;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 60px;
+    text-align: center;
+}
+
+
+
+.titulos {
+    margin-left: 10px;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-left-radius:4px;
+    border-top-right-radius: 4px;
+    /*efeito de sombra*/
+    padding: 5px !important;
+    background-color: rgb(83, 83, 83);
+}
+
+.container-names {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: 10px;
+    align-items: flex-end;
+    white-space: 20px;
+    
+}
+
+div#espaço {
+    padding: 30px;
+}
+
+.categ {
+    background: #323232;
+    border-bottom: 2px solid #444;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 15%;
+    height: 37px;
+    padding-top: 8px;
+    padding-left: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.card-ação {
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+}
+
+
+
+.span-cap {
+    text-decoration: underline rgb(83, 83, 83);
+    color: white;
+    font-family: 'Open Sans';
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div-cap {
+    justify-self: start;
+    
+}
+
+.linha {
+    color: black;
+    width: 5px;
+    height: 100%;
+}
+
+.cap-card {
+    border-radius: 10px;
+    /*efeito de sombra*/
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    width: 50%;
+}
+
+.div-cap {
+    border-bottom: 2px solid #444;
+    display: grid;
+    grid-template-columns: repeat(1);
+    padding: 8px;
+
+}
+
+.manga-logo {
+    border: 3px solid;
+    border-color: white;
+}
+
+.sinopse {
+    margin-left: 5px;
+}
+
+
+
+p{
+    color: white;
+}
+
+.mangá-sel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn-outline {
+    display: inline-block;
+    border-radius: 0.375rem;
+    color: #ffffff;
+    padding: .75rem .35rem;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #323232; 
+}
+
+.btn-outline-cap:hover { 
+    background: #323232;
+    color: #fff;
+}
+
+.btn-outline:hover { 
+    background: #323232;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header2 {
+    background-color: rgb(83, 83, 83); 
+}
+
+#img-SN {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.description {
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.mangá {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-next-cap {
+    background: transparent;
+    width: 477px;
+    height: 36px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #323232;
+    border-radius: 0.375rem;
+}
+
+.btn-next-cap:hover {
+    background-color: #323232;
+}
+
+.end-cap-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnOff {
+    background-color: transparent;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
